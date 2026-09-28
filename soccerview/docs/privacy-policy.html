@@ -45,7 +45,7 @@
   <body>
     <div class="container">
       <h1>Privacy Policy</h1>
-      <p class="last-updated">Last updated: March 19, 2026</p>
+      <p class="last-updated">Last updated: September 28, 2026</p>
 
       <p>
         SoccerView is operated by SportsView LLC ("Company", "we", "our", or "us"), a Kansas limited liability company. This Privacy Policy explains what information we collect when you use the SoccerView mobile application ("App"), how we use it, and your choices.
@@ -60,10 +60,16 @@
       <h3 style="font-size:1.1em; margin:15px 0 10px;">Automatically Collected</h3>
       <ul>
         <li>
-          <strong>Device Identifier:</strong> A randomly generated anonymous identifier (UUID) stored locally on your device. This is not linked to your name, email, Apple ID, or any personal information. It is used solely to associate feedback submissions with a device.
+          <strong>Device Identifier:</strong> A randomly generated anonymous identifier (UUID) stored locally on your device. This is not linked to your name, email, Apple ID, Google account, or any personal information. It is used to associate feedback submissions with a device and to look up SoccerView Pro subscription status for the device. Our subscription provider, RevenueCat, receives it as your anonymous customer ID.
         </li>
         <li>
-          <strong>Crash Reports and Diagnostics:</strong> We use Sentry to collect crash reports, error logs, and limited session replay data when errors occur. This includes device type, operating system version, app version, and stack traces. Session replays capture app screen interactions (not camera, microphone, or personal content) to help us diagnose bugs.
+          <strong>Crash Reports and Diagnostics:</strong> We use Sentry to collect crash reports, error logs, performance data, and limited session replay data (from a small sample of sessions and from sessions where an error occurs). This includes device type, operating system version, app version, stack traces, a random installation ID created by Sentry, and the IP address the report was sent from. Session replays capture app screen interactions (not camera, microphone, or personal content) to help us diagnose bugs.
+        </li>
+        <li>
+          <strong>Search Terms:</strong> When you search on the Rankings, Teams, or Leagues tab, we record the words you searched for, which tab you searched on, how many results were found, how closely the best result matched, how long the search took, and when it happened. This record is not linked to your device identifier or any other identifier. We use it to measure and improve search results and speed.
+        </li>
+        <li>
+          <strong>App Usage Events:</strong> When you open the SoccerView Pro upgrade screen, or open, share, or save a team's Game Day or Season Finale card, we record that action, the team it was for (if any), and when it happened. This record is not linked to your device identifier or any other identifier. We use it to understand which features are used so we can improve the App.
         </li>
         <li>
           <strong>Basic Device Information:</strong> Device type and operating system version for compatibility purposes.
@@ -91,7 +97,7 @@
 
       <h2>Subscriptions and Payment Data</h2>
       <p>
-        If you purchase a SoccerView Pro subscription, the transaction is processed entirely by Apple through the App Store. We do not receive, process, or store your credit card number, billing address, or other payment details. We receive only a confirmation that a valid subscription exists for your account.
+        If you purchase a SoccerView Pro subscription, the transaction is processed entirely by Apple (App Store) or Google (Google Play), depending on where you downloaded the App. We do not receive, process, or store your credit card number, billing address, or other payment details. We receive only your subscription status from RevenueCat: which Pro product you purchased, the store, the purchase and expiration dates, and the latest subscription event (for example, a renewal or cancellation). We store this with your anonymous device identifier so the App can unlock Pro features.
       </p>
 
       <h2>Data Sources</h2>
@@ -110,7 +116,7 @@
           <strong>Expo</strong> (expo.dev): App framework and over-the-air updates. Expo's privacy policy is available at <a href="https://expo.dev/privacy">expo.dev/privacy</a>.
         </li>
         <li>
-          <strong>Supabase</strong> (supabase.com): Backend database service for sports data. No personal user data is stored in our database.
+          <strong>Supabase</strong> (supabase.com): Backend database service for sports data and for the limited app data described in this policy (feedback, subscription status, search terms, and usage events).
         </li>
         <li>
           <strong>RevenueCat</strong> (revenuecat.com): Subscription management (when Pro tier is active). Processes subscription status only; does not receive payment details. Privacy policy at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>.
@@ -119,7 +125,7 @@
 
       <h2>Data Retention</h2>
       <p>
-        Feedback submissions are retained for the purpose of improving the App. Crash reports are retained by Sentry according to their data retention policies. You may request deletion of any feedback you have submitted by contacting us.
+        Feedback submissions, search terms, and usage events are retained for the purpose of improving the App. Crash reports are retained by Sentry according to their data retention policies. You may request deletion of any feedback you have submitted by contacting us.
       </p>
 
       <h2>Data Security</h2>
@@ -156,7 +162,7 @@
         </p>
         <p>
           Email:
-          <a href="mailto:soccerviewapp@gmail.com">soccerviewapp@gmail.com</a>
+          <a href="mailto:soccerviewinfo@gmail.com">soccerviewinfo@gmail.com</a>
         </p>
         <p>
           SportsView LLC<br>
